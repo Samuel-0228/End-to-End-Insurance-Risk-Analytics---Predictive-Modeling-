@@ -4,7 +4,7 @@
 Analyzing historical South African car insurance data (Feb 2014–Aug 2015) to optimize marketing, identify low-risk segments, and build predictive models for premiums. Focus: EDA, hypothesis testing, ML modeling.
 
 ## Setup
-1. Clone repo: `git clone https://github.com/YOUR_USERNAME/acis-insurance-analytics.git`
+1. Clone repo: `https://github.com/Samuel-0228/End-to-End-Insurance-Risk-Analytics---Predictive-Modeling-.git`
 2. Install deps: `pip install -r requirements.txt`
 3. Run EDA: `python src/eda.py`
 
