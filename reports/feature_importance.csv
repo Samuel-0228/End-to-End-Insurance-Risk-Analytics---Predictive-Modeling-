@@ -1,0 +1,13 @@
+Feature,Importance
+Gender,0.10921047
+Cylinders,0.10367217
+VehicleType,0.100027375
+CustomValueEstimate,0.09890559
+HasSecurity,0.0981108
+Kilowatts,0.09392321
+Cubiccapacity,0.089493796
+SumInsured,0.08900285
+Province,0.07721752
+IntroAge,0.07207434
+VehicleAge,0.06836186
+IsNewVehicle,0.0
