@@ -5,19 +5,22 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'   # fixed Python version
+        python-version: '3.11'
 
     - name: Upgrade build tools
       run: pip install --upgrade pip setuptools wheel
 
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+        pip install pandas==2.2.2   # <-- pinned to avoid ME frequency issues
+        pip install -r requirements.txt
 
     - name: Run EDA tests
       run: python src/eda.py
