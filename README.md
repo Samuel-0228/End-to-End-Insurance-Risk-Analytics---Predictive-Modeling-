@@ -20,8 +20,8 @@ Built over 4 days (Dec 03-09, 2025) simulating financial deadlines: Git/DVC for 
 
 1. **Clone & Install:**
    ```
-   git clone https://github.com/YOUR_USERNAME/acis-insurance-analytics.git
-   cd acis-insurance-analytics
+   git clone https://github.com/Samuel-0228/End-to-End-Insurance-Risk-Analytics---Predictive-Modeling-.git
+   cd End-to-End-Insurance-Risk-Analytics---Predictive-Modeling-
    pip install -r requirements.txt  # Pandas, Scikit-learn, XGBoost, SHAP, DVC
    ```
 
